@@ -3,7 +3,7 @@ import re
 import requests
 
 # 1. Load the Dataset (Shakespeare example) [cite: 8, 17]
-url = "https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt"
+url = "https://github.com/tusharsuthar108/Kenya-Data-Train/blob/main/pg100-images-3.txt"
 text = requests.get(url).text
 
 # 2. Preprocessing: Lowercase and remove punctuation 
